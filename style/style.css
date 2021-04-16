@@ -128,7 +128,7 @@ footer {
 
 @media screen and (max-width: 1200px) {
   body {
-    background: url("/style/images/bg-mobile.svg") #674baf;
+    background: url("/style/images/bg-mobile.svg"), #674baf;
     background-repeat: no-repeat;
   }
   header img {
