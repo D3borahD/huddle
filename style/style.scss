@@ -23,7 +23,7 @@ $SoftMagenta: hsl(300, 69%, 71%);
 
 body {
   width: 100%;
-  background: url("/style/images/bg-desktop.svg");
+  background: url("../style/images/bg-desktop.svg");
   background-color: $Violet;
   color: white;
   font-family: "Open Sans", sans-serif;
@@ -125,7 +125,7 @@ footer {
 
 @media screen and (max-width: 1200px) {
   body {
-    background: url("/style/images/bg-mobile.svg"), $Violet;
+    background: url("../style/images/bg-mobile.svg"), $Violet;
     background-repeat: no-repeat;
   }
   header {
