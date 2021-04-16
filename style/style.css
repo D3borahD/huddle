@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: url("/style/images/bg-desktop.svg");
+  background-color: #674baf;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: auto;
+}
+
+header img {
+  height: 2.5rem;
+  margin: 3.5rem 5rem 1rem 5rem;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5%;
+}
+
+.text {
+  margin-left: 4rem;
+  width: 29rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+}
+
+.text p,
+button {
+  font-size: 1rem;
+}
+
+.text p {
+  line-height: 1.5rem;
+}
+
+button {
+  height: 3.625rem;
+  width: 12.5rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  color: #674baf;
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+  background: #e882e8;
+  color: white;
+}
+
+button,
+.social {
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  width: 80%;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+footer {
+  position: bottom;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 5rem;
+  padding-bottom: 2rem;
+}
+
+.container-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 8rem;
+}
+
+.social {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  border: solid 1px white;
+}
+
+.social i {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-right: 0.2rem;
+  top: 7px;
+  text-align: center;
+}
+
+.social:hover {
+  color: #e882e8;
+  border-color: #e882e8;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    background: url("/style/images/bg-mobile.svg") #674baf;
+    background-repeat: no-repeat;
+  }
+  header img {
+    margin: 2rem;
+    height: 2rem;
+  }
+  main {
+    margin: 2rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main img {
+    width: 100%;
+  }
+  main .text {
+    margin-left: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .text P,
+  main .text h1 {
+    text-align: center;
+  }
+  main .text h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  main .text button {
+    height: 2rem;
+    font-size: 0.6rem;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 0;
+  }
+  footer > .attribution {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-top: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
